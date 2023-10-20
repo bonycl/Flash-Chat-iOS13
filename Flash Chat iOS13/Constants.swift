@@ -6,6 +6,7 @@
 //  Copyright © 2023 Angela Yu. All rights reserved.
 //
 struct K {
+    static let appName = "⚡️FlashChat"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"
     static let registerSegue = "RegisterToChat"
@@ -15,7 +16,7 @@ struct K {
         static let purple = "BrandPurple"
         static let lightPurple = "BrandLightPurple"
         static let blue = "BrandBlue"
-        static let lighBlue = "BrandLightBlue"
+        static let lightBlue = "BrandLightBlue"
     }
     
     struct FStore {
